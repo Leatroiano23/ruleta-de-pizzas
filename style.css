@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0d0d0d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 70px;
+}
+
+.cincopizzas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.conteinerPizza {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+}
+
+.input-number {
+  width: 100%;
+  height: 30px;
+}
+
+.add-btn {
+  background-color: blueviolet;
+  font-size: 15px;
+  color: black;
+}
